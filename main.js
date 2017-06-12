@@ -126,8 +126,8 @@ function toStation() {
 }
 
 function isTurn() {
-  rl.question('请输入是否按站查找(false,true):', function (answer) {
-    if (answer == true)
+  rl.question('请输入是否按站查找(0,1):', function (answer) {
+    if (answer > 0)
       config.is_turn = true
     else
       config.is_turn = false
