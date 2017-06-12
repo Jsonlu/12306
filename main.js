@@ -127,10 +127,10 @@ function toStation() {
 
 function isTurn() {
   rl.question('请输入是否按站查找(false,true):', function (answer) {
-    if (!answer)
-      config.is_turn = false
-    else
+    if (answer == true)
       config.is_turn = true
+    else
+      config.is_turn = false
     fs.writeFileSync('./config.json', JSON.stringify(config));
     rl.prompt();
   });
