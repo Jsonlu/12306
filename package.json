@@ -1,0 +1,28 @@
+{
+  "name": "12306",
+  "version": "1.0.0",
+  "description": "通过12306查询余票的程序",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jsonlu/12306.git"
+  },
+  "keywords": [
+    "12306",
+    "train"
+  ],
+  "author": "JsonLu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jsonlu/12306/issues"
+  },
+  "homepage": "https://github.com/Jsonlu/12306#readme"
+}
